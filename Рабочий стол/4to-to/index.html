@@ -5,17 +5,67 @@
     <title>HTML - формы</title>
 </head>
 <body>
-<form action="index.html" method="post"></form>
-<input type="text" placeholder="Введите текст" >
+    <form action="index.html" method="post"></form>
+    <div>
+        <label for="fio">ФИО</label>
+        <input id="fio" type="text" placeholder="Введите текст" >
+    </div>
+    <div>
+        <label>
+            Мужской <input type="radio" name="sex" value="0">
+        </label>
+        <label>
+            Женский <input type="radio" name="sex" value="1">
+        </label>
+        <label>
+            Не определился <input type="radio" name="sex" value="2" checked>
+        </label>
+    </div>
+    <div>
+        <label for="sity">Город</label>
+        <select name="sity" id="sity">
+            <option value="1">Санкт-Петербург</option>
+            <option value="2">Москва</option>
+            <option value="3" selected >Таганрог</option>
+        </select>
+    </div>
+    <div>
+        <input type="radio" name="sex" value="0">
+        <input type="radio" name="sex" value="1">
+        <input type="radio" name="sex" value="2" checked>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Выберете категорию рассылок</legend>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="section[]" value="1">
+                        Новости
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="section[]" value="2" checked>
+                        Котики
+                </label>
+                </li>
+                <li>
+                   <label>
+                       <input type="checkbox" name="section[]" value="3">
+                       Авто
+                   </label>
+                </li>
+            </ul>
+        </fieldset>
+    </div>
+    <div>
+        <label for="comment">Особые пожелания</label>
+        <textarea name="comment" id="comment"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="send">
+    </div>
 
-<input type="radio" name="sex" value="0">
-<input type="radio" name="sex" value="1">
-<input type="radio" name="sex" value="2" checked>
-
-<input type="checkbox" name="section[]" value="1">
-<input type="checkbox" name="section[]" value="2" checked>
-<input type="checkbox" name="section[]" value="3">
-
-<input type="submit" value="send">
 </body>
 </html>
