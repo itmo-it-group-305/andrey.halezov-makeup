@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Brif</title>
+</head>
+<body>
+	<!-- Name -->
+		<h1>Информация о вашем сайте</h1>
+	<!-- Content -->
+	<form action="" method="post">
+		<div>
+			<fieldset>	
+				<legend>Контактная информация</legend>
+				<ul>
+					<div>
+						<li>
+							<label for="f">Фамилия</label><br>
+							<input type="text" id="f" placeholder="Введите вашу Фамилию">
+						</li>
+					</div>	
+					<div>
+						<li>
+							<label for="i">Имя</label><br>
+							<input type="text" id="i" placeholder="Введите ваше Имя">
+						</li>
+					</div>
+					<div>
+						<li>
+							<label for="o">Отчество</label><br>
+							<input type="text" id="o" placeholder="Введите ваше Отчество">
+						</li>
+					</div>
+					<div>
+						<li>
+							<label for="sity">Город</label><br>
+							<select name="sity" id="sity">
+			            		<option value="1">Санкт-Петербург</option>
+			            		<option value="2">Москва</option>
+			            		<option value="3">Псков</option>
+			            		<option value="4">Псков</option>
+			            		<option value="5">Новгород</option>
+			       			</select>
+		       			</li>
+	       			</div>
+					<div>
+						<li>
+							<label for="k">Компания</label><br>
+							<input type="text" id="k" placeholder="Введите название компании">
+						</li>
+					</div>
+					<div>
+						<li>
+							<label for="s">Сайт</label><br>
+							<input type="text" id="s" placeholder="Введите адрес сайта">
+						</li>
+					</div>
+					<div>
+						<li>
+							<label for="e">Email</label><br>
+							<input type="text" id="e" placeholder="Введите ваш Email">
+						</li>
+					</div>
+				</ul>
+			</fieldset>
+		</div>
+	<!-- about -->
+		<div>
+			<fieldset>
+				<legend>О Компании</legend>
+				<div>
+					<label for="de">Сфера деятельности:</label><br>
+					<input type="text" id="de">
+				</div>
+				<div>
+					<label for="audit">Целевая аудитория:</label><br>
+					<input type="text" id="audit">
+				</div>
+				<div>
+					<label for="p">Преимущества компании:</label><br>
+					<textarea name="" id="p" cols="31" rows="2"></textarea>
+				</div>
+				<div>
+					<label for="kon">Ваши основные конкуренты и их сайты:</label><br>
+					<textarea name="vs" id="kon" cols="31" rows="2"></textarea>
+				</div>
+				<div>
+					<label for="sale">Информация о распродажах и скидках:</label><br>
+					<textarea name="sale" id="sale" cols="31" rows="2"></textarea>
+				</div>
+				<div>
+					<label for="video">Анимационный или видеоролик:</label><br>
+					<textarea name="video" id="video" cols="31" rows="2"></textarea>
+				</div>
+				<div>
+					<label for="age">Возрастная категория сайта:</label><br>
+					<input type="text" id="age">
+				</div>
+			</fieldset>
+		</div>
+		<!-- for -->
+ 		<div>
+       		<fieldset>
+            <legend>Требуется ли?</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="1">
+                            Подбор и регистрация доменного имени
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="2">
+                            Помощь в размещение сайта на хостинге
+                    </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="3">
+                            Администрирование сервера, хостинга
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="4">
+                            Первоначальное заполнение сайта исполнителем
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="5">
+                            Написание текстов
+                        </label>
+                    </li>
+                </ul>
+       		</fieldset>
+   		</div>
+   		<div>
+	   		<fieldset>
+	   			<legend>Укажите сайты, которые вам понравились</legend>
+				<table border="1">
+					<tr>
+						<td>Ссылки</td>
+						<td>Комментарии</td>
+					</tr>
+					<tr>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+					</tr>
+				</table> 
+	   		</fieldset>
+   		</div>
+   		<div>
+   			<fieldset>
+   				<legend>Ваши Пожелания</legend>
+	   			<textarea name="your wishes" cols="80" rows="6" placeholder="Оставьте ваши пожелания"></textarea>
+	   		</fieldset>
+   		</div>
+   	<!-- Knopa -->
+   		<div>
+   			<input type="submit" value="Отправить">
+   		</div>
+	</form>	
+</body>
+</html>
