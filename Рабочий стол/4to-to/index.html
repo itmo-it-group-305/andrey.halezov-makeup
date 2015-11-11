@@ -2,15 +2,20 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ruslan+Display&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <title>HTML - формы</title>
 </head>
 <body>
-    <form action="index.html" method="post"></form>
-    <div>
+<h1>CTuJIu3yem HTML фopMы c пoMoщью CSS</h1>
+<h2>tyty</h2>
+    <form action="index.html" method="post">
+    <div class="form-row">
         <label for="fio">ФИО</label>
         <input id="fio" type="text" placeholder="Введите текст" >
     </div>
-    <div>
+    <div class="form-row">
         <label>
             Мужской <input type="radio" name="sex" value="0">
         </label>
@@ -21,7 +26,7 @@
             Не определился <input type="radio" name="sex" value="2" checked>
         </label>
     </div>
-    <div>
+    <div class="form-row">
         <label for="sity">Город</label>
         <select name="sity" id="sity">
             <option value="1">Санкт-Петербург</option>
@@ -29,43 +34,43 @@
             <option value="3" selected >Таганрог</option>
         </select>
     </div>
-    <div>
+    <div class="form-row ">
         <input type="radio" name="sex" value="0">
         <input type="radio" name="sex" value="1">
         <input type="radio" name="sex" value="2" checked>
     </div>
-    <div>
+    <div class="form-row">
         <fieldset>
             <legend>Выберете категорию рассылок</legend>
-            <ul>
-                <li>
-                    <label>
-                        <input type="checkbox" name="section[]" value="1">
-                        Новости
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="1">
+                            Новости
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="2" checked>
+                            Котики
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="checkbox" name="section[]" value="2" checked>
-                        Котики
-                </label>
-                </li>
-                <li>
-                   <label>
-                       <input type="checkbox" name="section[]" value="3">
-                       Авто
-                   </label>
-                </li>
-            </ul>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="section[]" value="3">
+                            Авто
+                        </label>
+                    </li>
+                </ul>
         </fieldset>
     </div>
-    <div>
+    <div class="form-row">
         <label for="comment">Особые пожелания</label>
-        <textarea name="comment" id="comment"></textarea>
+        <textarea name="comment" id="comment">Особые пожелания</textarea>
     </div>
-    <div>
+    <div class="form-row">
         <input type="submit" value="send">
     </div>
-
+  </form>
 </body>
 </html>
