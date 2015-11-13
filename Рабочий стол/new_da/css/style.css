@@ -33,16 +33,42 @@ h1 {
 	margin: 0 auto;
 }
 
-.main-menu {
-    float: right;
+#main-menu ul li {
+	display: none;
+	margin-top: 15px;
+}
+
+#main-menu ul:hover li {
+	display: block;
+}
+
+#main-menu ul, #main-menu li {
+	padding: 0;
+}
+
+#main-menu { 
+	display: table;
+	width: 100%;
+}
+
+#main-menu ul { 
+	position: absolute;
+	z-index: 5;
+	display: none;
+}
+
+#main-menu li:hover ul {
+	display: block;
+}
+
+#main-menu ul li {
+	display: block;
 }
 
 #main-menu li {
-	display: inline-block;
-	padding: 0 15px;
 	font-size: 18px;
 	z-index: 10;
-	margin-top: -10px;
+	display: table-cell;
 }
 
 #main-menu a {
@@ -200,7 +226,6 @@ ul {
 }
 
 .prici  li {
-	margin-left: 5%;
 	border-radius:4px; 
 	background-color: #fff;
 	border:1px solid #dfdfdf; 
@@ -301,6 +326,14 @@ ul {
 	font-weight:700;  
 }
 
+.price-sub:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.price-sub2:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
 .price2 {
     background-color: #3b95ca;
 }
@@ -316,6 +349,7 @@ ul {
 .cont-bg {
 	background: #fff;
 	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	margin-top: 75px;
 }
 
 #contact_form input {
@@ -329,8 +363,7 @@ ul {
 }
 
 .section-heading {
-	display:block;
-	width:100%;
+	padding-top: 10px;
 	margin:0 0 40px 0;
 }
 
@@ -341,14 +374,6 @@ ul {
 	letter-spacing: -5px;
 	text-align: center;
 	color: #555555;
-}
-
-.inner {
-	padding:35px 60px
-}
-
-.inner-results h3 a:hover {
-	color: #3498db;
 }
 
 .content-box .inner {
@@ -391,8 +416,12 @@ ul {
 	text-decoration: none
 }
 
-.pad {
-	margin-top: 50px;
+.inner {
+	padding:35px 60px
+}
+
+.inner-results h3 a:hover {
+	color: #3498db;
 }
 
 .inner input,textarea {

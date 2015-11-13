@@ -19,10 +19,16 @@
 					<div class="col-3">
 						<a href="index.html"><img src="img/logo.png" alt="logo digital art"></a>
 					</div> 
-					<nav class="main-menu col-7">
+					<nav class="offset-2 col-7">
 						<ul id="main-menu">
 							<li><a href="index.html">Главная</a></li>
-							<li><a href="services.html">Услуги</a></li>
+							<li><a href="services.html">Услуги</a>
+								<ul>
+									<li><a href="development.html">Разработка</a></li>
+									<li><a href="progress.html">Продвижение</a></li>
+									<li><a href="optimization.html">Оптимизация</a></li>
+								</ul>
+							</li>
 							<li><a href="about.html">О нас</a></li>
 							<li><a href="contact.html">Контакты</a></li>
 						</ul>
@@ -47,6 +53,7 @@
 	        <h2>Качественно и недорого, разработка от 3х дней</h2>
 	  </div>
 	</div>
+
 	<section class="col-12" id="about">
 	  <div class="container">
 	  	<div class="row">
@@ -85,11 +92,11 @@
 	        </div>
         </div>
 	</section>
+
 	<section >
 			<div class="container">
-
 				<ul class="row prici">
-				<li class="col-3 mar"> <h6> Посадочная страница </h6> <p class="prici-subti">подробно</p> <div class="price"> $79.<span>99</span> </div> 
+				<li class="col-4 mar"> <h6> Landing Page </h6> <p class="prici-subti">подробно</p> <div class="price"> $79.<span>99</span> </div> 
 					<ul class="price-list">
 						<li> 24/7 Техническая поддержка </li>
 						<li> Уникальный дизайн </li>
@@ -98,7 +105,7 @@
 					</ul> 
 					<a class="price-sub"> Заказать </a>
 				</li>
-				<li class="col-3"> <h6> Проффесиональный сайт </h6> <p class="prici-subti">подробно</p> <div class="price2"> $299.<span>99</span> </div> 
+				<li class="col-4"> <h6> Интернет магазин </h6> <p class="prici-subti">подробно</p> <div class="price2"> $299.<span>99</span> </div> 
 					<ul class="price-list">
 						<li> 24/7 Техническая поддержка </li>
 						<li> Уникальный дизайн </li>
@@ -107,7 +114,7 @@
 					</ul>
 					<a class="price-sub2"> Заказать </a>
 				</li>
-				<li class="col-3 mar"> <h6> Интернет магазин </h6> <p class="prici-subti">подробно</p> <div class="price"> $149.<span>99</span> </div> 
+				<li class="col-4 mar"> <h6> Тематический сайт </h6> <p class="prici-subti">подробно</p> <div class="price"> $149.<span>99</span> </div> 
 					<ul class="price-list">
 						<li> 24/7 Техническая поддержка </li>
 						<li> Уникальный дизайн </li>
@@ -119,35 +126,34 @@
 				</ul>
 			</div>
 	</section>
+
 	<section>
-	<div class="col-12 pad">
-	  <div class="container cont-bg">
-	    <div class="row">
-	        <div class="section-heading">
-	          <div class="section-title">Заказать Сайт</div>
-	      	</div>
-	     	<div class="col-6">
-	        <div class="inner">
-	          <div class="content-logo"><img src="img/content-logo.png" alt="Digital art"></div>
-	          <form method="post" action="_contact-us.php" id="contact_form">
-	            <label for="name">Ваше Имя <span>*</span></label>
-	            <input type="text" class="input-field" id="name" name="name" value="">
-	            <label for="email">Номер телефона<span>*</span></label>
-	            <input type="text" class="input-field" id="email" name="email" value="">
-	            <label for="message">Сообщение <span>*</span></label>
-	            <textarea id="message" name="message" cols="50" rows="4"></textarea>
-	            <input type="submit" class="form-btn" value="Сделать Заказ" />
-	              </form>
-	        </div>
-	      </div>
-	      <div class="col-6">
-	        <div class="inner">
-	          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1413.7307192104308!2d30.339911081731778!3d59.92687931290382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1447196801165" frameborder="1" style="border:2" allowfullscreen></iframe>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  </div>
+		<div class="container cont-bg pad">
+	    	<div class="row">
+	        	<div class="section-heading">
+	        		<div class="section-title">Заказать Сайт</div>
+	      		</div>
+	     		<div class="col-6">
+	        		<div class="inner">
+	        			<div class="content-logo"><img src="img/content-logo.png" alt="Digital art"></div>
+	        			<form method="post" action="_contact-us.php" id="contact_form">
+				            <label for="name">Ваше Имя <span>*</span></label>
+				            <input type="text" class="input-field" id="name" name="name" value="">
+				            <label for="email">Номер телефона<span>*</span></label>
+				            <input type="text" class="input-field" id="email" name="email" value="">
+				            <label for="message">Сообщение <span>*</span></label>
+				            <textarea id="message" name="message" cols="50" rows="4"></textarea>
+				            <input type="submit" class="form-btn" value="Сделать Заказ" />
+           				</form>
+	    			</div>
+	    		</div>
+	   			<div class="col-6">
+			   		<div class="inner">
+			    		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1413.7307192104308!2d30.339911081731778!3d59.92687931290382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1447196801165" frameborder="1" style="border:2" allowfullscreen></iframe>
+			        </div>
+	    		</div>
+	    	</div>
+		</div>
 	</section>
 </body>
 </html>
