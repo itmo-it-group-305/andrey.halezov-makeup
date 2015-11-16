@@ -1,0 +1,62 @@
+
+
+body {
+	margin: auto;
+	background-color: #eee;
+}
+
+header {
+	background-color: #fff;
+}
+
+* {box-sizing: border-box;}
+
+h1 {font-family: 'Prosto One'}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.bg{
+	background-color: #fff;
+}
+
+.logo img {
+	width: 85%;
+}
+
+.main-menu a {
+	color: #000;
+	font-family: 'Prosto One', cursive;
+}
+
+.main-menu ul li{
+	display: inline;
+	padding-left: 0.8em;
+	text-transform: uppercase;
+
+}
+
+.image ul li {
+	display: inline;
+}
+
+.image ul li a {
+	color:#000;
+}
+
+.pad {
+	padding-top: 1%;
+}
+.zag {	
+	padding: 2%;
+}
+
+.zag img {
+	width: 100%
+}
+
+.pad1 {
+	padding-left: 
+}
