@@ -57,6 +57,54 @@ h1 {font-family: 'Prosto One'}
 	width: 100%
 }
 
+.zag1 {	
+	padding: 2%;
+}
+
+.zag1 img {
+	width: 100%
+}
+
 .pad1 {
 	padding-left: 
+}
+
+
+@media screen and (max-width: 699px) {
+	body {
+		display: block;
+		text-align: center;
+	}
+	
+	.main-menu ul li {
+		display: block;
+		margin-left: 40%;
+		padding-top: 0.4em;	
+	}
+
+	.container {
+		width: 700px;
+	}
+	
+	.logo {
+		margin-left: 41%;
+	}
+	
+	.zag1 {
+		margin-top: 1em;
+	}
+
+	.zag1 img {
+		width: 30%;
+		float: left;
+	}
+
+	.image {
+		display: inline;		
+	}
+
+	#med {
+		display: none;
+	}
+
 }

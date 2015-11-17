@@ -14,6 +14,7 @@
 
 .col-1 {width: 8.33333333333%}
 .col-2 {width: 16.6666666667%}
+.col-2-xs {width: 16.6666666667%}
 .col-3 {width: 25%}
 .col-4 {width: 33.3333333333%}
 .col-5 {width: 41.6666666667%}
@@ -35,3 +36,24 @@
 .offset-10 {margin-left: 83.3333333333%}
 .offset-11 {margin-left: 91.6666666667%}
 .offset-12 {margin-left: 100%}
+
+@media screen and (max-width: 699px) {
+	.col-7 {
+		width: 100%;
+		text-align: center;
+		padding-top: 2em;
+	}
+
+	.col-4 {
+		width: 100%;
+		display: inline;
+	}
+
+	.offset-1 {
+		margin-left: 0px;
+	}
+
+	.col-2-xs {
+		width: 10%;
+	}
+}
